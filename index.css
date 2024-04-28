@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+#form {
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  margin: 50px auto;
+  position: relative;
+}
+
+
+.ip {
+  height: 40px;
+  width: 250px;
+  font-size: 22px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+}
+.firstdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.xyz {
+  /* border: 2px solid red; */
+  /* border: 2px solid red; */ */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 31.5px;
+  position: absolute;
+  left: 52%;
+  top: 16%;
+  z-index: +5;
+}
+#gender {
+  /* border: 2px solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 22px;
+  gap: 15px;
+  /* height: 40px; */
+  width: 250px;
+}
+
+#gender input {
+  border: 2px solid black;
+  /* height: 60px; */
+  /* padding-top: 20px; */
+}
+
+#heading {
+  text-align: center;
+  font-size: 34px;
+}
+
+#btn {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  background-color: navy;
+  color: white;
+  font-size: 32px;
+  margin-top: 161px;
+  border-radius: 20px;
+  /* margin-left: -10px; */
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -380px;
+  margin-top: 320px;
+  height: 40px;
+  /* position: absolute; */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+<section>
+  <article>
+    <div id="heading">
+      <h1>Register Form</h1>
+    </div>
+    <form action="" id="form">
+
+      <div class="firstdiv">
+        <div>
+          <input class="ip" type="text" placeholder="Enter First Name" id="username1" />
+        </div>
+        <div class="error-message" id="firstNameError"></div>
+        <div>
+          <input class="ip" size="10" type="number" placeholder="Enter your number" id="number" />
+          
+        </div>
+        <div class="num" id="num"> </div>
+        <div>
+          <input class="ip" type="password" placeholder="Enter your password" id="pwd"  />
+          <div class="error-message" id="passwordError"></div>
+        </div>
+        <div>
+          <input class="ip" type="date" id="dob" > <label for=""></label>
+          <div class="error-message" id="dobError"></div>
+        </div>
+        </div>
+      </div>
+
+      <div class="firstdiv">
+        <div>
+          <input class="ip" type="text" placeholder="Enter Last Name" id="username2"  />
+          <div class="error-message" id="lastNameError"></div>
+        </div>
+        
+      </div>
+        
+        <div class="xyz">
+          <input class="ip" type="email" placeholder="Enter your email" id="email"  />
+          <div class="error-message" id="emailError"></div>
+        
+        <div>
+          <input class="ip" type="password" placeholder="Confirm your password" id="cpwd"  />
+          <div class="error-message" id="confirmPasswordError"></div>
+        </div> 
+
+        <!-- </div> -->
+        <div id="gender"> Gender
+          <input  type="radio" id="male" name="gender" value="male" ><label for="male">male</label>
+          <input  type="radio" id="female" name="gender"  value="female" ><label for="female">female</label>
+        </div >
+        <div class="error-message" id="genderError"></div>
+        </div>
+
+      </div>
+        <div id="button">
+          <button id="btn" type="submit">Register</button>
+        </div>
+      </div>
+    </form>
+  </article>
+</section>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
